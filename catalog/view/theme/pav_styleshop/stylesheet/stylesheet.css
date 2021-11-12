@@ -21237,7 +21237,7 @@ ul.social {
 /* Social Icons*/
 .footer-social {
     position: unset !important;
-    margin: 20px 0px;
+    margin: 10px 0px;
     display: inline-block !important;
 }
 .footer-social ul {
@@ -21271,6 +21271,27 @@ ul.social {
 .footer-social .fb a:hover {
 	background: #3C5B9B;
 }
+
+/* Youtube added by avijit */
+.footer-social .youtube a:before {
+	content: "\f167";
+	font-family: FontAwesome;
+}
+.footer-social .youtube a {
+	background: #f00;
+	font-size: 18px;
+	line-height: 35px;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	color: #fff;
+	text-align: center;
+	padding: 0;
+}
+.footer-social .youtube a:hover {
+	background: #f00;
+}
+/* End youtube */
 
 .footer-social .tw a:before {
 	content: "\f099";
